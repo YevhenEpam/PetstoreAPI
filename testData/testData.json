@@ -1,0 +1,79 @@
+{
+    "createUser": {
+      "id": 0,
+      "username": "YevhenKY",
+      "firstName": "Yevhen",
+      "lastName": "KY",
+      "email": "test.test@example.com",
+      "password": "password123",
+      "phone": "123-456-7890",
+      "userStatus": 0
+    },
+
+    "userLogin": {
+      "username": "YevhenKY",
+      "password": "password123"
+    },
+
+    "createUsersList": [
+      {
+        "id": 0,
+        "username": "YevhenKY",
+        "firstName": "Yevhen",
+        "lastName": "KY",
+        "email": "test.test@example.com",
+        "password": "password123",
+        "phone": "123-456-7890",
+        "userStatus": 0
+      },
+      {
+        "id": 1,
+        "username": "YevhenKY1",
+        "firstName": "Yevhen1",
+        "lastName": "KY1",
+        "email": "test1.test@example.com",
+        "password": "password123",
+        "phone": "123-456-7890",
+        "userStatus": 0
+      }
+    ],
+
+    "createNewPet": {
+        "id": 100,
+        "category": {
+          "id": 0,
+          "name": "pug"
+        },
+        "name": "doggie",
+        "photoUrls": [
+          "https://cdn.britannica.com/34/233234-050-1649BFA9/Pug-dog.jpg"
+        ],
+        "tags": [
+          {
+            "id": 0,
+            "name": "pug"
+          }
+        ],
+        "status": "available"
+    },
+
+    "updatePet": {
+      "id": 0,
+      "category": {
+        "id": 0,
+        "name": "pug1"
+      },
+      "name": "doggie",
+      "photoUrls": [
+        "https://as2.ftcdn.net/v2/jpg/01/17/48/27/1000_F_117482750_KjafXcML1eijQSkzsmIMhhwuORDtwgI6.jpg"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "pug1"
+        }
+      ],
+      "status": "sold"
+  }
+
+}

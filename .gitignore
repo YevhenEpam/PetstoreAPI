@@ -6,6 +6,7 @@ cypress/screenshots/
 cypress/videos/
 
 # Logs
+mochawesome-report/
 logs/
 *.log
 
